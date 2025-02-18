@@ -1,0 +1,5 @@
+{
+	"version": 2,
+	"builds": [{ "src": "src/routes/api/+server.ts", "use": "@sveltejs/adapter-vercel" }],
+	"routes": [{ "src": "/api", "dest": "/api" }]
+}
