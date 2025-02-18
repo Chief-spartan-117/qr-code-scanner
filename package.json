@@ -19,6 +19,7 @@
 		"@sveltejs/kit": "^2.16.0",
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
 		"@tailwindcss/vite": "^4.0.0",
+		"@types/qrcode": "^1.5.5",
 		"prettier": "^3.4.2",
 		"prettier-plugin-svelte": "^3.3.3",
 		"prisma": "^6.3.1",
@@ -29,6 +30,10 @@
 		"vite": "^6.0.0"
 	},
 	"dependencies": {
-		"@prisma/client": "6.3.1"
+		"@prisma/client": "6.3.1",
+		"cryptr": "^6.3.0",
+		"i": "^0.3.7",
+		"qr-code-styling": "^1.9.1",
+		"qrcode": "^1.5.4"
 	}
 }

@@ -13,10 +13,10 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model qr {
+model Qr {
   id          String @id @default(auto()) @map("_id") @db.ObjectId
   name        String
-  email       String
+  email       String @unique
   phoneNumber String
   snack       Int    @default(0)
 }
