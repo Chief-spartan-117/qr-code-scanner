@@ -19,9 +19,6 @@ export const POST: RequestHandler = async ({ request }) => {
 
         const qrCodeData = await qrcode.toDataURL(encData);
 
-
-        console.log(name, email, phoneNumber);
-
         await prisma.qr.create({
             data: {
                 email,
